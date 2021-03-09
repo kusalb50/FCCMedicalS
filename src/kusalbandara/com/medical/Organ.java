@@ -13,17 +13,13 @@ public class Organ {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+
 
     public String getMedicalConditional() {
         return medicalConditional;
     }
 
-    public void setMedicalConditional(String medicalConditional) {
-        this.medicalConditional = medicalConditional;
-    }
+
     public void getDetails(){
         System.out.println("Name: "+this.getName());
         System.out.println("Medical Condition: "+this.getMedicalConditional());

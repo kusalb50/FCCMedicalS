@@ -14,9 +14,7 @@ public class Eye extends Organ{
         return color;
     }
 
-    public void setColor(String color) {
-        this.color = color;
-    }
+
 
     public boolean isOpen() {
         return isOpen;

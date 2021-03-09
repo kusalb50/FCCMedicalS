@@ -20,15 +20,7 @@ public class Skin extends Organ{
         System.out.println("Skin color: "+this.getColor());
     }
 
-    public void setColor(String color) {
-        this.color = color;
-    }
 
-    public int getSoftness() {
-        return softness;
-    }
 
-    public void setSoftness(int softness) {
-        this.softness = softness;
-    }
+
 }
